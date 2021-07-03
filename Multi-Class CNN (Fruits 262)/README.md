@@ -46,5 +46,3 @@ Some fruits which had between 50-100 usable images still remain in the dataset, 
 This is also one big reason for the high variance in the missing images statistic provided above.
 
 ![IMG](https://raw.githubusercontent.com/Hrushi11/Blogs-Repository/main/Multi-Class%20CNN%20(Fruits%20262)/Images/all%203.png)
-
-![IMG](https://raw.githubusercontent.com/Hrushi11/Blogs-Repository/main/Multi-Class%20CNN%20(Fruits%20262)/Images/loss_acc3.jpg)
