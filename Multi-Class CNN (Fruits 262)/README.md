@@ -9,6 +9,10 @@ corn kernel, cornelian cherry, crab apple, cranberry, crowberry, cupuacu, custar
 elderberry, elephant apple, emblic, entawak, etrog, feijoa, fibrous satinash, fig, finger lime, galia melon, gandaria, genipap, goji, gooseberry, goumi, grape,
 grapefruit, greengage, grenadilla, guanabana, guarana, guava, guavaberry, hackberry, hard kiwi.... and many more.
 
+## Some insights from the project
+![IMG1](https://raw.githubusercontent.com/Hrushi11/Blogs-Repository/main/Multi-Class%20CNN%20(Fruits%20262)/Images/pred%202.jpg)
+![img](https://raw.githubusercontent.com/Hrushi11/Blogs-Repository/main/Multi-Class%20CNN%20(Fruits%20262)/Images/pred%203.jpg)
+
 ## Data set Properties
 Dataset Properties
 Total number of images: 225,640.
@@ -40,3 +44,7 @@ Images can contain small watermarks.
 
 Some fruits which had between 50-100 usable images still remain in the dataset, but can be discarded for a better balance and lesser variety. 
 This is also one big reason for the high variance in the missing images statistic provided above.
+
+![IMG](https://raw.githubusercontent.com/Hrushi11/Blogs-Repository/main/Multi-Class%20CNN%20(Fruits%20262)/Images/all%203.png)
+
+![IMG](https://raw.githubusercontent.com/Hrushi11/Blogs-Repository/main/Multi-Class%20CNN%20(Fruits%20262)/Images/loss_acc3.jpg)
