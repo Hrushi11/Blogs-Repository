@@ -1,5 +1,7 @@
 # Multi-Class CNN (Fruits-262)
 
+![img](https://raw.githubusercontent.com/Hrushi11/Blogs-Repository/main/Multi-Class%20CNN%20(Fruits%20262)/Images/random%20image.png)
+
 The following fruit types/labels/clades are included: abiu, acai, acerola, ackee, alligator apple, ambarella, 
 apple, apricot, araza, avocado, bael, banana, barbadine, barberry, bayberry, beach plum, bearberry, bell pepper, betel nut, bignay, 
 bilimbi, bitter gourd, black berry, black cherry, black currant, black mullberry, black sapote, blueberry, bolwarra, bottle gourd, brazil nut, bread fruit, 
