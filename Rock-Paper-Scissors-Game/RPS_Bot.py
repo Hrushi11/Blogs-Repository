@@ -31,6 +31,7 @@ class RPS_Bot(User):
          players = [self.name, "RPS-BOT"]
          user_choice = self.choice.lower()
          bot_choice = random.choice(rps_labels)
+         self.bot_choice = bot_choice
          orig = [user_choice, bot_choice]
          check = [user_choice, bot_choice]
          check.sort()
