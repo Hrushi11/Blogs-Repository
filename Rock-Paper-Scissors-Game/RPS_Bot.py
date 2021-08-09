@@ -57,11 +57,11 @@ class RPS_Bot(User):
         
      def rps_initiate(self):
          print("-------------------------------------------")
-         if int(self.age) >= 3:
+         if int(self.age) >= 3 and self.choice.lower() in rps_labels:
              res, user_choice, bot_choice = self.rps_bot()
              stmnt = f"{res} \n{self.name} Chose - {user_choice} \nRPS-BOT Chose - {bot_choice}"
          
          else :
-             stmnt = f"YOU ARE UNDER-AGE - {self.age} years \nCHECK with `sign_in()` function"
+             stmnt = f"YOU MIGHT BE UNDER-AGE - {self.age} years, or \nyou chose `{self.choice}`, which might NOT BE IDENTIFIED, RE-CHECK "
 
          return stmnt
