@@ -27,33 +27,33 @@ class RPS_Bot(User):
         self.bot_choice = "BOT CHOICE NOT INIITIALIZED YET"
     
      def rps_bot(self):
-         c = 1
+         c = 1 # Check for winning
          players = [self.name, "RPS-BOT"]
-         user_choice = self.choice.lower()
+         user_choice = self.choice.lower() # to keep similarities all throughout
          bot_choice = random.choice(rps_labels)
          self.bot_choice = bot_choice
-         orig = [user_choice, bot_choice]
-         check = [user_choice, bot_choice]
-         check.sort()
+         orig = [user_choice, bot_choice] # original order
+         check = [user_choice, bot_choice] # order will be changed after sorting
+         check.sort() # to sort the array
          
-         if check[0] == check[1]:
+         if check[0] == check[1]: 
              c = 0
              res = "DRAW"
          
-         if check == ['paper', 'rock']:
+         if check == ['paper', 'rock']: 
              res = "paper"
          elif check == ["paper", "scissor"]:
              res = "scissor"
          elif check == ["rock", "scissor"]:
              res = "rock"
          
-         if c:
-             for i in range(len(orig)):
-                 if res == orig[i]:
-                     index = i
+         if c: # works if it's not a draw
+             for i in range(len(orig)): 
+                 if res == orig[i]: 
+                     index = i # to get the position of the winner from the orig array
              res = f"{players[index]} won"     
          
-         return res, user_choice, bot_choice
+         return res, user_choice, bot_choice # returning results, user choice and bot choice
         
      def rps_initiate(self):
          print("-------------------------------------------")
